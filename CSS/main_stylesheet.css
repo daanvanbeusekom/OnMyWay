@@ -60,6 +60,10 @@ text-decoration: none;
 color: black;
 }
 
+body {
+background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/8f087a36887327.572cbe89e640d.jpg");
+}
+
 .pictures {
 text-align: center;
 margin-top: 5px;
@@ -106,6 +110,7 @@ display: flex;
 }
 
 .text-text #t1 {
+max-width: 2000px;
 margin-right: auto;
 text-align: left;
 }
