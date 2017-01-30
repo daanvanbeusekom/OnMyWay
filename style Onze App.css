@@ -1,0 +1,60 @@
+/*Stylsheet*/
+
+*{
+margin: 0;
+padding: 0;
+}
+
+p {
+	font-family: 'Overpass Mono', monospace, sans-serif;
+}
+
+header {
+	padding: 20px;
+	background-color: rgb(255, 84, 0);
+	margin: -10px;
+	border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+header .row {
+	display: flex;
+	align-items: center;
+}
+
+header h1 {
+	display: flex;
+	font-weight: 700;
+	margin: 0;
+}
+
+header ul {
+	display: flex;
+	margin-left: auto;
+	list-style-type: none;
+}
+
+header h3 {
+	padding: 0 20px;
+	margin: 0;
+}
+
+#OA {
+	border-bottom: 2px solid white;
+}
+
+#OA:hover, li:hover {
+	border-bottom: 2px solid black;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+header a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+/* Creators: Daan, Jesse, Matthijs, Thijs */
+/* Project: Level 5 */
