@@ -3,10 +3,11 @@ width: 100%;
 height: auto;
 bottom: 20px;
 color: rgb(255, 255, 255);
-background-color: rgb(20,20,20);
+background-color: rgb(255, 84, 0);
 margin-top: 120px;
 font-family: OpenSans-Light;
-border-bottom: 20px dotted rgb(20,20,20);
+border-top: 5px solid rgb(0, 0, 0);
+border-bottom: 20px dotted rgb(255, 84, 0);
 }
 
 #bottom_boddy_wrapper>footer>#text_footer {
