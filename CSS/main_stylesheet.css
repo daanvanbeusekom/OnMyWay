@@ -5,6 +5,10 @@ margin: 0;
 padding: 0;
 }
 
+a {
+text-decoration: none;
+}
+
 html{
 background-color: rgb(235,235,235);
 background-size: auto 100%;
@@ -57,7 +61,7 @@ color: black;
 }
 
 body {
-background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/11f22146734833.58620ffbcf184.jpg");
+background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/adc77d23382139.56322b8d5dcf4.jpg");
 background-position: center;
 }
 
@@ -96,7 +100,7 @@ font-family: 'Orbitron', sans-serif;
 display: flex;
 }
 
-.text-title #T1 {
+.text-title h1 {
 margin-right: auto;
 margin-left: auto;
 text-align: center;
@@ -106,7 +110,7 @@ text-align: center;
 display: flex;
 }
 
-.text-text #t1 {
+.text-text p {
 max-width: 2000px;
 margin-right: auto;
 text-align: left;
@@ -116,8 +120,12 @@ text-align: left;
 border-bottom:2px solid rgb(255, 255, 255);
 }
 
-.playstore {
-	
+#text_footer a {
+color: white;
+}
+
+#text_footer:hover a {
+color: rgb(200, 200, 200);
 }
 
 /* Creators: Daan, Jesse, Matthijs, Thijs */
