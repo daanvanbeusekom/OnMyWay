@@ -1,6 +1,6 @@
 /*Stylsheet*/
 
-*{
+* {
 margin: 0;
 padding: 0;
 }
@@ -9,7 +9,7 @@ a {
 text-decoration: none;
 }
 
-html{
+html {
 background-color: rgb(235,235,235);
 background-size: auto 100%;
 background-repeat: no-repeat;
@@ -46,10 +46,6 @@ padding: 0 20px;
 margin: 0;
 }
 
-.nav li:hover {
-border-bottom: 2px solid black;
-}
-
 header a {
 text-decoration: none;
 color: white;
@@ -60,15 +56,19 @@ text-decoration: none;
 color: black;
 }
 
+.active a {
+color: black;
+}
+
 body {
 background-image: url("../IMG/pattern.png");
-background-position: center;
+background-position: center top;
 }
 
 .pictures {
 text-align: center;
-margin-top: 5px;
-margin-bottom: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
 clear: both;
 }
 
@@ -78,6 +78,7 @@ margin-right: 50px;
 
 .pictures #WoW {
 margin-left: 50px;
+margin-bottom: 65px;
 }
 
 .text {
@@ -118,10 +119,7 @@ text-align: left;
 
 .text-video {
 display: flex;
-}
-
-.active{
-border-bottom:2px solid rgb(255, 255, 255);
+margin-top: 25px;
 }
 
 #text_footer a {
