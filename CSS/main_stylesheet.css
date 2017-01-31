@@ -131,5 +131,10 @@ color: white;
 color: rgb(200, 200, 200);
 }
 
+#contact_info {
+max-width: 2000px;
+text-align: left;
+}
+
 /* Creators: Daan, Jesse, Matthijs, Thijs */
 /* Project: Level 5 */
