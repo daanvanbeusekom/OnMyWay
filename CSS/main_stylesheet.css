@@ -116,6 +116,10 @@ margin-right: auto;
 text-align: left;
 }
 
+.text-video {
+display: flex;
+}
+
 .active{
 border-bottom:2px solid rgb(255, 255, 255);
 }
