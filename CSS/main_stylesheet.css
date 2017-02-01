@@ -74,12 +74,17 @@ clear: both;
 }
 
 .pictures #Logo {
-margin-right: 50px;
+margin-right: 25px;
 }
 
 .pictures #WoW {
-margin-left: 50px;
+margin-right: 25px;
+margin-left: 25px;
 margin-bottom: 65px;
+}
+
+.pictures #eurekacup {
+margin-left: 25px;
 }
 
 .text {
