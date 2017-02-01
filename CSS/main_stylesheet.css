@@ -1,21 +1,21 @@
 /*Stylsheet*/
 
-*{
+* {
 margin: 0;
 padding: 0;
 }
 
-html{
+a {
+text-decoration: none;
+}
+
+html {
 background-color: rgb(235,235,235);
 background-size: auto 100%;
 background-repeat: no-repeat;
 width: 100%;
 height: 100%;
 min-width: 1000px;
-}
-
-p{
-font-family: 'Overpass Mono', monospace, sans-serif;
 }
 
 header {
@@ -46,10 +46,6 @@ padding: 0 20px;
 margin: 0;
 }
 
-.nav li:hover {
-border-bottom: 2px solid black;
-}
-
 header a {
 text-decoration: none;
 color: white;
@@ -60,10 +56,20 @@ text-decoration: none;
 color: black;
 }
 
+.active a {
+color: black;
+}
+
+body {
+background-image: url("../IMG/pattern.png");
+background-position: center top;
+background-repeat: repeat-x;
+}
+
 .pictures {
 text-align: center;
-margin-top: 5px;
-margin-bottom: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
 clear: both;
 }
 
@@ -73,6 +79,7 @@ margin-right: 50px;
 
 .pictures #WoW {
 margin-left: 50px;
+margin-bottom: 65px;
 }
 
 .text {
@@ -95,7 +102,7 @@ font-family: 'Orbitron', sans-serif;
 display: flex;
 }
 
-.text-title #T1 {
+.text-title h1 {
 margin-right: auto;
 margin-left: auto;
 text-align: center;
@@ -105,17 +112,28 @@ text-align: center;
 display: flex;
 }
 
-.text-text #t1 {
+.text-text p {
+max-width: 2000px;
 margin-right: auto;
 text-align: left;
 }
 
-.active{
-border-bottom:2px solid rgb(255, 255, 255);
+.text-video {
+display: flex;
+margin-top: 25px;
 }
 
-.playstore {
-	
+#text_footer a {
+color: white;
+}
+
+#text_footer:hover a {
+color: rgb(200, 200, 200);
+}
+
+#contact_info {
+max-width: 2000px;
+text-align: left;
 }
 
 /* Creators: Daan, Jesse, Matthijs, Thijs */

@@ -23,12 +23,16 @@ font-family: Roboto-Medium;
 src: url(../FONTS/Roboto-Medium.ttf);
 }
 
-@font-face{
+@font-face {
 font-family: Open Sans;
 src: url(../FONTS/OpenSans-Regular.ttf);
 }
 
-@font-face{
+@font-face {
 font-family: Open Sans Semi Bold;
 src: url(../FONTS/OpenSans-Semibold.ttf);
+}
+
+p {
+font-family: 'Overpass Mono', monospace, sans-serif;
 }
