@@ -1,5 +1,5 @@
 <?php
-//Index.php
+//our_app.php
 
 $page_title = "Onze app";
 include "top.php";

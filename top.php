@@ -9,7 +9,7 @@ include "database_connect.php";
 <html>
 	<head>
 		<!-- Basic -->
-		<title>On My Way</title>
+		<title><?php echo $page_title?> | On My Way</title>
 		<link href="https://fonts.googleapis.com/css?family=Orbitron|Overpass+Mono" rel="stylesheet">
 		<link href="CSS/main_stylesheet.css" type="text/css" rel="stylesheet" media='screen  and (min-width: 1000px)'>
 		<link href="CSS/wide_stylesheet.css" type="text/css" rel="stylesheet" media='screen  and (min-width: 1000px)'>

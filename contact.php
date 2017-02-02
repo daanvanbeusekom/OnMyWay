@@ -1,15 +1,15 @@
 <?php
-//technology.php
+//Index.php
 
-$page_title = "Technologie";
+$page_title = "Contact";
 include "top.php";
 
-$SQL = "SELECT `txt_id`, `category_id`, `txt_title`, `txt_content`, `post_by`, `txt_date`, `txt_visible` FROM `txt` WHERE txt_id='3'";
+$SQL = "SELECT `txt_id`, `category_id`, `txt_title`, `txt_content`, `post_by`, `txt_date`, `txt_visible` FROM `txt` WHERE txt_id='4'";
 $result = $connection->query($SQL);
 ?>
-
-    <div class="text">
-	   <?php
+		
+		<div class="text">
+		  <?php
             while($row = $result->fetch_assoc()){
         ?>
 			<div class="text-title">
@@ -21,8 +21,8 @@ $result = $connection->query($SQL);
 			</div>
         <?php
             }
-        ?>	
-    </div>
+        ?>
+		</div>
 		
 <?php
 include "bottom.php";
