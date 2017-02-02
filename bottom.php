@@ -45,7 +45,7 @@
 			
 			<footer>
 				<div id="text_footer">
-					&copy Copyright OnMyWay - 2017 | Made by Group 2</a>
+					&copy Copyright OnMyWay - 2017 | Made by Jesse Bartels, Daan v. Beusekom, Matthijs v. Duin & Thijs v/d Heijden</a>
 				</div>
 			</footer>
 		</div>

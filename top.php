@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<?php
+include "vars.php";
+include "sessions.php";
+include "functions.php";
+include "database_connect.php";
+?>
+
 <html>
 	<head>
 		<!-- Basic -->
@@ -49,9 +56,31 @@
                     <li id="CONT" class="<?php echo ($page_name_menu=='contact.php')?'active':'';?>">
                         <a href="contact.php">Contact</a>
                     </li>
+                    <?php
+						
+							if($_SESSION['signed_in'] == false){
+						?>
 					<li id="INL" class="<?php echo ($page_name_menu=='sign_in.php')?'active':'';?>">
                         <a href="sign_in.php">Inloggen</a>
                     </li>
+                    <?php
+							}else{
+						?>
+                    <li id="ULG" class="<?php echo ($page_name_menu=='sign_out.php')?'active':'';?>">
+                        <a href="sign_out.php">Uitloggen</a>
+                    </li>
+                    <?php
+							}
+				    ?>
+				    <?php
+                        if($_SESSION['user_level'] == 1){
+				    ?>
+                    <li id="ADM" class="">
+                        <a href="admin/admin.php">Admin</a>
+                    </li>
+                    <?php
+							}
+				    ?>
 				</ul>
 			</div>
 		</header>

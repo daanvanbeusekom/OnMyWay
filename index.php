@@ -3,6 +3,9 @@
 
 $page_title = "Home";
 include "top.php";
+
+$SQL = "SELECT `txt_id`, `category_id`, `txt_title`, `txt_content`, `post_by`, `txt_date`, `txt_visible` FROM `txt` WHERE txt_id='1'";
+$result = $connection->query($SQL);
 ?>
 
 	<div class="pictures">
@@ -13,15 +16,20 @@ include "top.php";
 		</div>
 		
 		<div class="text">
-		
+		<?php
+            while($row = $result->fetch_assoc()){
+        ?>
 			<div class="text-title">
-				<h1>On My Way</h1>
+				<h1><?php echo $row['txt_title']?></h1>
 			</div>
 			
 			<div class="text-text">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra leo eget sem auctor vehicula at sit amet ipsum. Cras in ipsum sodales, ullamcorper nisi ut, gravida felis. Phasellus gravida neque in tortor blandit dignissim. Nunc ac tellus aliquam, pretium diam sed, vehicula mi. Cras gravida sem ut nulla rhoncus fermentum. Mauris dignissim dignissim eros, vel eleifend lorem hendrerit eu. Phasellus turpis magna, gravida non vestibulum ut, ultricies sed urna. Sed posuere mollis ex, auctor condimentum metus tristique at. In scelerisque sit amet mi in commodo. Donec vel molestie turpis, id tristique risus. Aliquam erat volutpat. Integer sodales tempus elit, ut lacinia arcu ornare ut. Sed non viverra purus. Pellentesque placerat rutrum est, in faucibus urna sodales non. Duis tempus, orci vel tempus molestie, enim turpis iaculis diam, in porta risus velit non nulla. Donec dignissim ipsum in egestas faucibus. 
-Nam tempor est ac molestie tempus. In ut erat in nulla dignissim porta id ac nisl. Phasellus tempus eget risus id porta. Suspendisse odio turpis, auctor eget risus a, iaculis iaculis justo. In ac mi sit amet urna luctus faucibus a ut arcu. Nulla at maximus elit, ac pretium felis. Nam molestie vitae neque vitae sollicitudin. </p>
+				<p><?php echo $row['txt_content']?> </p>
 			</div>
+        <?php
+            }
+        ?>
+        
 		</div>
 
 <?php
