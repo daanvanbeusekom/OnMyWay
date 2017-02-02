@@ -38,8 +38,8 @@
 			
 			<div id="social">
                 <ul id="socialicons">
-                         <li> <a href="https://play.google.com/store" target="_blank" class="playstore footer_icon"><img src="IMG/Social/playstore%20(1).png" alt=""></a></li>
-                    <li> <a href="" target="_blank" class="appstore footer_icon"><img src="IMG/Social/app-store%20(1).png" alt="appstore-icon"</a></li>
+                         <li> <a href="https://play.google.com/store" target="_blank" class="playstore footer_icon"><img src="IMG/Social/playstore%20(1).png" title="Download Onze App" alt=""></a></li>
+                    <li> <a href="" target="_blank" class="appstore footer_icon"><img src="IMG/Social/app-store%20(1).png" title="Download Onze App" alt="appstore-icon" </a></li>
 			    </ul>
 			</div>
 			

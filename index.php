@@ -10,8 +10,8 @@ $result = $connection->query($SQL);
 
 	<div class="pictures">
 		
-			<img src="IMG/On My Way.png" id="Logo" width="200px">
-			<img src="IMG/WoW.png" id="WoW" width="200px">
+			<img src="IMG/On My Way.png" id="Logo" width="200px" title="On My Way" alt="Logo - On My Way">
+			<img src="IMG/WoW.png" id="WoW" width="200px" title="Wegbeheerders Ontmoeten Wegbeheerders" alt"Wegbeheerders Ontmoeten Wegbeheerders">
 			
 		</div>
 		

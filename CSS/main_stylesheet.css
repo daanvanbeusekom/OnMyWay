@@ -134,6 +134,7 @@ text-align: center;
 
 .text-text {
 display: flex;
+margin-top:20px;
 }
 
 .text-text p {

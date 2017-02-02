@@ -94,7 +94,7 @@ if($_SESSION['signed_in'] == true){
                         $_SESSION['user_level'] = $row['user_level'];
                     }
                      
-                    echo '<br /><p>Welkom, ' . $_SESSION['user_name'] . '. <a href="index.php">Ga naar de home pagina.</a>.</p>';
+                    echo '<div class="text"><br /><p>Welkom, ' . $_SESSION['user_name'] . '. <a href="index.php">Ga naar de home pagina.</a>.</p></div>';
 					echo '<META http-equiv="refresh" content="1;URL=index.php">'; 
 				}
 			}
