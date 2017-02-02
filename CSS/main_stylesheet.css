@@ -161,6 +161,12 @@ max-width: 2000px;
 text-align: left;
 }
 
+.opdrachtgevers {
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+clear: both;
+}
 
 /* Creators: Daan, Jesse, Matthijs, Thijs */
 /* Project: Level 5 */
