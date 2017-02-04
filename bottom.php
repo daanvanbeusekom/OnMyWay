@@ -1,3 +1,4 @@
+</div>
 <div id="bottom_body_wrapper">
 			<div id="footer_lose">
 			</div>

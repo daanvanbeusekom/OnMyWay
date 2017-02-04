@@ -25,11 +25,12 @@ if($_SESSION['signed_in'] == true){
             <form method="POST" action="sign_in.php">
                 <label for="username">
                     <span>Gebruikersnaam:</span>
-                    <input type="text" name="user_name" id="username" required>
+                    <input type="text" name="user_name" id="username" placeholder="Gebruikersnaam" required>
+                    <label for="user" class="entypo-user"></label>
                 </label>
                 <label for="password">
                     <span>Wachtwoord:</span>
-                    <input type="password" name="user_pass" id="password" required>
+                    <input type="password" name="user_pass" id="password" palceholder="Wachtwoord" required>
                 </label>
                 <label>
                     <input type="submit" value="Log in" class="submit">

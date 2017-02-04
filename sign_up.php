@@ -21,7 +21,7 @@ if($_SERVER['REQUEST_METHOD'] != 'POST'){
 				<input type="password" name="user_pass" id="password" required>
 			</label>
 			<label for="password_check">
-				Herhaal Wachtwoord:
+                <span>Herhaal Wachtwoord:</span>
 				<input type="password" name="user_pass_check" id="password_check" required>
 			</label>
 			<label for="email">
