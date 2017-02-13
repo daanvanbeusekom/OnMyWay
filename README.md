@@ -16,5 +16,9 @@ A repository for the site of a project on school!
 ### Update 1.3: The site is now on a Database. 
 ###### The site is now running on php, you have to run the site in a localhost with php support. You can maken now your account and then you can login.
 --
+13-02-2017 20:09
+### Update 2.0: Add the admin panel. 
+###### You can now login as a administrator and you can then update the site (you can change the content). Add Database with administrator tables.
+--
 
  
