@@ -1,0 +1,8 @@
+<?php
+//Server account
+$db_servername = "mysql.hostinger.nl";
+$db_username = "?";
+$db_password = "ZLG5vsrt";
+$db_name = "?_web";
+
+?>

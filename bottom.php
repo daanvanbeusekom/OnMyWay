@@ -9,7 +9,7 @@
 						<a href="index.php">On My Way</a>
 					</li>
 					<li>
-						<a href="our_app.php">Onze App</a>
+						<a href="our_idea.php">Ons Idee</a>
 					</li>
 					<li>
 						<a href="technology.php">Technologie</a>
@@ -40,7 +40,7 @@
 			<div id="social">
                 <ul id="socialicons">
                          <li> <a href="https://play.google.com/store" target="_blank" class="playstore footer_icon"><img src="IMG/Social/playstore%20(1).png" title="Download Onze App" alt=""></a></li>
-                    <li> <a href="http://www.apple.com/itunes/" target="_blank" class="appstore footer_icon"><img src="IMG/Social/app-store%20(1).png" title="Download Onze App" alt="appstore-icon" </a></li>
+                    <li> <a href="http://www.apple.com/itunes/" target="_blank" class="appstore footer_icon"><img src="IMG/Social/app-store%20(1).png" title="Download Onze App" alt="appstore-icon"> </a></li>
 			    </ul>
 			</div>
 			

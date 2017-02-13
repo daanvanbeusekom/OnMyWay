@@ -45,8 +45,8 @@ include "database_connect.php";
                     <li id="HM" class="<?php echo ($page_name_menu=='index.php')?'active':'';?>">
                         <a href="index.php">Home</a>
                     </li>
-					<li id="OA" class="<?php echo ($page_name_menu=='our_app.php')?'active':'';?>">
-                        <a href="our_app.php">Onze App</a>
+					<li id="OA" class="<?php echo ($page_name_menu=='our_idea.php')?'active':'';?>">
+                        <a href="our_idea.php">Ons Idee</a>
                     </li>
 					<li id="TECH" class="<?php echo ($page_name_menu=='technology.php')?'active':'';?>">
                         <a href="technology.php">Technologie</a>

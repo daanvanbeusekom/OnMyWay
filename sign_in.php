@@ -75,7 +75,7 @@ if($_SESSION['signed_in'] == true){
 		}else{
 			//Check the database
 			
-			$sql = "SELECT user_id, user_name, user_level FROM users WHERE user_name ='$user_name' AND user_pass ='$user_pass'";
+			$sql = "SELECT user_id, user_name, user_level, user_theme, user_img FROM users WHERE user_name ='$user_name' AND user_pass ='$user_pass'";
 			$result = $connection->query($sql);
 			
 			if(!$result){
@@ -93,6 +93,8 @@ if($_SESSION['signed_in'] == true){
                         $_SESSION['user_id']    = $row['user_id'];
                         $_SESSION['user_name']  = $row['user_name'];
                         $_SESSION['user_level'] = $row['user_level'];
+                        $_SESSION['user_theme'] = $row['user_theme'];
+						$_SESSION['user_img']   = $row['user_img'];
                     }
                      
                     echo '<div class="text"><br /><p>Welkom, ' . $_SESSION['user_name'] . '. <a href="index.php">Ga naar de home pagina.</a>.</p></div>';
