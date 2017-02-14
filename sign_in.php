@@ -19,7 +19,9 @@ if($_SESSION['signed_in'] == true){
 
 <div class="text">
     
-<h1><?php echo $page_title; ?></h1>
+<div class="txt-title animated bounce">   
+    <h1 ><?php echo $page_title; ?></h1>
+</div>
     <article>
         <p>
             <form method="POST" action="sign_in.php">

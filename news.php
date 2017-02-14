@@ -10,7 +10,7 @@ $result = $connection->query($SQL);
 
     <div class="text">
         
-        <div class="text-title">
+        <div class="text-title animated bounce">
 				<h1>Nieuws</h1>
 			</div>
         

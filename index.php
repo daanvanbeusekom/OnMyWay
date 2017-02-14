@@ -19,7 +19,7 @@ $result = $connection->query($SQL);
 		<?php
             while($row = $result->fetch_assoc()){
         ?>
-			<div class="text-title">
+			<div class="text-title animated bounce">
 				<h1><?php echo $row['txt_title']?></h1>
 			</div>
 			

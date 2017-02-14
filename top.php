@@ -15,6 +15,7 @@ include "database_connect.php";
 		<link href="CSS/wide_stylesheet.css" type="text/css" rel="stylesheet" media='screen  and (min-width: 1000px)'>
 		<link href='CSS/font_stylesheet.css' type="text/css" rel="stylesheet">
         <link href='CSS/form_stylesheet.css' type="text/css" rel="stylesheet">
+        <link href='CSS/animate.css' type="text/css" rel="stylesheet">
         
         <!-- Javascript -->
         <script src="JS/smooth-scroll.js"></script>

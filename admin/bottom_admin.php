@@ -1,11 +1,4 @@
-				<div id="footer">
-					<footer>
-						<div class="pull-right hidden-xs">
-							<b>Version</b> 0.7.3 beta 2
-						</div>
-						<strong>Copyright © 2015 - 2017</strong>
-					</footer>
-				</div>
+				
 				<script>
 					// Get the modal
 					var modal = document.getElementById('myModal');
@@ -51,6 +44,15 @@
 				}
 				</script>
 				</div>
+
+                <!--<div id="footer">
+					<footer>
+						<div class="pull-right hidden-xs">
+							<b>Version</b> 0.7.3 beta 2
+						</div>
+						<strong>Copyright © 2015 - 2017</strong>
+					</footer>
+				</div>-->
 			</div>
 			<script src="plugins/lightbox2-master/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
 			<script type="text/javascript">

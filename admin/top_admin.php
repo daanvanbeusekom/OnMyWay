@@ -22,6 +22,7 @@ if($_SESSION['user_level'] == 1){
 		<link href="CSS/<?php echo ''. $_SESSION['user_theme'] .'' ; ?>/form_stylesheet.css" type="text/css" rel="stylesheet">
 		<link href='CSS/font_stylesheet.css' type="text/css" rel="stylesheet">
 		<link href="CSS/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <link href="CSS/col_classes.css" type="text/css" rel="stylesheet">
 		<link href="CSS/<?php echo ''. $_SESSION['user_theme'] .'' ; ?>/classes.css" type="text/css" rel="stylesheet">
 		
 		

@@ -8,7 +8,7 @@ if($_SERVER['REQUEST_METHOD'] != 'POST'){
 ?>
 
 <div class="text">
-<h1><?php echo $page_title; ?></h1>
+<h1 class="animated bounce"><?php echo $page_title; ?></h1>
 <article>
 	<p>
 		<form method="POST" action="sign_up.php">

@@ -1,0 +1,69 @@
+/* Stylesheet for the collums on the page */
+/* Made by Daan van Beusekom */
+
+
+/* Col formats */
+.col-25{
+width:22%;
+max-width:22%;
+}
+
+.col-50{
+width:47%;
+}
+
+.col-75{
+width:72%;
+}
+
+.col-100{
+width:100%;
+}
+
+/* Col positions */
+.left{
+float:left;
+position:relative;
+}
+
+.right{
+float:Right;
+position:relative;
+}
+
+.col{
+float: left;
+padding: 15px;
+}
+
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+}
+
+/* Col border colors */
+
+.red-border{
+border-top-color: #dd4b39 !important;
+}
+
+.green-border{
+border-top-color: #00a65a !important;
+}
+
+.blue-border{
+border-top-color: #3c8dbc !important;
+}
+
+.grey-border{
+border-top-color: #b9b9b9 !important;
+}
+
+.yellow-border{
+border-top-color: #f39c12 !important;
+}
+
+.aqua-border{
+border-top-color: #00c0ef !important;
+}

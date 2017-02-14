@@ -1,6 +1,7 @@
 <?php
-
 $page_title = "Indexbeheer";
+$page_name = "Recent";
+$local_page = "<i class='fa fa-clock-o'>&nbsp;</i>Recent / Nieuwe Gebeurtenis";
 include "top_admin.php";
 
 if($_SESSION['user_level'] == 1){
