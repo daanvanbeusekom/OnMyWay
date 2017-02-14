@@ -21,4 +21,9 @@ A repository for the site of a project on school!
 ###### You can now login as a administrator and you can then update the site (you can change the content). Add Database with administrator tables.
 --
 
+14-02-2017 17:04
+### Update 2.0: Add the news page. 
+###### You can now see the news and you can when you are a administrator update the news or make a new news messages.
+--
+
  
