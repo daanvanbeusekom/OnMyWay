@@ -33,6 +33,11 @@ font-family: Open Sans Semi Bold;
 src: url(../FONTS/OpenSans-Semibold.ttf);
 }
 
+@font-face{
+font-family: Open Sans Light;
+src: url(../FONTS/OpenSans-Light.ttf);
+}
+
 p {
 font-family: 'Overpass Mono', monospace, sans-serif;
 }

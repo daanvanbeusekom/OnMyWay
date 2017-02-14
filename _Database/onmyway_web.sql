@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 13 feb 2017 om 20:07
+-- Gegenereerd op: 14 feb 2017 om 17:03
 -- Serverversie: 10.1.16-MariaDB
 -- PHP-versie: 5.6.24
 
@@ -41,6 +41,32 @@ INSERT INTO `categories` (`category_id`, `category_name`) VALUES
 (3, 'Technologie'),
 (4, 'Nieuws'),
 (5, 'Contact');
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `news`
+--
+
+CREATE TABLE `news` (
+  `news_id` int(11) NOT NULL,
+  `category_id` int(1) NOT NULL,
+  `news_title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `news_content` text COLLATE utf8_unicode_ci NOT NULL,
+  `news_by` int(11) NOT NULL,
+  `news_date` date NOT NULL,
+  `news_visible` int(11) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `news`
+--
+
+INSERT INTO `news` (`news_id`, `category_id`, `news_title`, `news_content`, `news_by`, `news_date`, `news_visible`) VALUES
+(12, 4, 'Test', '<p>Curabitur at ligula id est sagittis aliquam. Duis eu nisl nec augue imperdiet mollis sed sed magna. Quisque vestibulum semper nibh ac facilisis. Curabitur congue vestibulum libero, eu pharetra nulla auctor nec. Proin aliquam ipsum id rutrum vehicula. Proin ut efficitur odio. In turpis sapien, consequat et tellus eu, laoreet dignissim risus. Aliquam semper sagittis mauris et euismod. Phasellus eget sodales purus, vel ornare odio. Donec finibus feugiat blandit. Praesent faucibus enim porta nisl iaculis, in auctor est pretium, test 4</p>', 1, '2017-02-14', 1),
+(14, 4, 'Welkom', '<p>Curabitur at ligula id est sagittis aliquam. Duis eu nisl nec augue imperdiet mollis sed sed magna. Quisque vestibulum semper nibh ac facilisis. Curabitur congue vestibulum libero, eu pharetra nulla auctor nec. Proin aliquam ipsum id rutrum vehicula. Proin ut efficitur odio. In turpis sapien, consequat et tellus eu, laoreet dignissim risus. Aliquam semper sagittis mauris et euismod. Phasellus eget sodales purus, vel ornare odio. Donec finibus feugiat blandit. Praesent faucibus enim porta nisl iaculis, in auctor est pretium, test heey</p>', 1, '2017-02-14', 1),
+(17, 1, 'Test', '<p>test</p>', 2, '2017-02-14', 1),
+(19, 1, 'Hoi', '<p>&nbsp;<img src="https://www.planwallpaper.com/static/images/general-night-golden-gate-bridge-hd-wallpapers-golden-gate-bridge-wallpaper.jpg" alt="Afbeeldingsresultaat voor wallpaper" width="657" height="380" />&nbsp; &nbsp;</p>\r\n<p>Een mooie afbeelding</p>', 24, '2017-02-14', 1);
 
 -- --------------------------------------------------------
 
@@ -108,6 +134,12 @@ ALTER TABLE `categories`
   ADD PRIMARY KEY (`category_id`);
 
 --
+-- Indexen voor tabel `news`
+--
+ALTER TABLE `news`
+  ADD PRIMARY KEY (`news_id`);
+
+--
 -- Indexen voor tabel `txt`
 --
 ALTER TABLE `txt`
@@ -129,6 +161,11 @@ ALTER TABLE `users`
 --
 ALTER TABLE `categories`
   MODIFY `category_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+--
+-- AUTO_INCREMENT voor een tabel `news`
+--
+ALTER TABLE `news`
+  MODIFY `news_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 --
 -- AUTO_INCREMENT voor een tabel `txt`
 --
