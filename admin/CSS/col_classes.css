@@ -29,12 +29,13 @@ float:left;
 float:Right;
 }
 
-.col{
+.col:not(.no-style-col){
 float: left;
 padding: 15px;
+position:static;
 }
 
-.clearfix::after {
+.clearfix:not(.nostyle)::after  {
 content: "";
 clear: both;
 display: table;

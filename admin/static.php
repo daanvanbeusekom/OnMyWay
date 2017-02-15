@@ -162,17 +162,17 @@ if($_SESSION['user_level'] == 1){
 				</div>
 
                  <div class="box col col-75 red-border" id="welcome_message">
-                     <div class="box-header with-border">
-                     <P>Menu Test</P>
+                     
 				 
+                         
 						<div class="box-tools pull-right">
 							<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
 							</button>
 							<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
 						</div>
-					</div>
 					
-					<div id="text_welcome_message" class="box-body">
+					
+					
                      
                         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
                           <ul class="nav nav-tabs">
@@ -181,7 +181,8 @@ if($_SESSION['user_level'] == 1){
                             <li><a href="#menu2">Menu 2</a></li>
                             <li><a href="#menu3">Menu 3</a></li>
                           </ul>
-
+                        
+                    <div id="text_welcome_message" class="box-body">
                           <div class="tab-content">
                             <div id="home" class="tab-pane fade in active">
                                 

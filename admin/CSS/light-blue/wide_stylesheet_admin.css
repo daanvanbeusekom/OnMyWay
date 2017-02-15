@@ -484,7 +484,6 @@ padding: 15px;
 color: #444;
 border-top: 1px solid #d2d6de;
 margin-top: 30px;
-margin-left:-260px;
 }
 
 footer>strong{
@@ -524,4 +523,11 @@ cursor: pointer;
 
 #color_form{
 height:300px;
+}
+
+#bottom_body_wrapper{
+max-width: calc(100% - 260px);
+float: left;
+width: 100%;
+min-width: 100%;
 }
