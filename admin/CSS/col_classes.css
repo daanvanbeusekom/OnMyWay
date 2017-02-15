@@ -23,12 +23,10 @@ width:100%;
 /* Col positions */
 .left{
 float:left;
-position:relative;
 }
 
 .right{
 float:Right;
-position:relative;
 }
 
 .col{
@@ -66,4 +64,15 @@ border-top-color: #f39c12 !important;
 
 .aqua-border{
 border-top-color: #00c0ef !important;
+}
+
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
