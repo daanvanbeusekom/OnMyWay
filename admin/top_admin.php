@@ -13,7 +13,7 @@ if($_SESSION['user_level'] == 1){
 	<head>
 	
 		<!-- Basic page -->
-		<title><?php echo $page_title; ?> | OMW ADMIn</title>
+		<title><?php echo $page_title; ?> | OMW ADMIN</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 		<link href="CSS/<?php echo ''. $_SESSION['user_theme'] .'' ; ?>/main_stylesheet_admin.css" type="text/css" rel="stylesheet" media='screen  and (min-width: 1000px)'>

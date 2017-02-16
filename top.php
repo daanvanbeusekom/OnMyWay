@@ -17,6 +17,14 @@ include "database_connect.php";
         <link href='CSS/form_stylesheet.css' type="text/css" rel="stylesheet">
         <link href='CSS/animate.css' type="text/css" rel="stylesheet">
         
+		<!-- Mobile -->
+		<link href="CSS/small_stylesheet.css" type="text/css" rel="stylesheet" media='screen  and (max-width: 999px)'>
+		<meta name="viewport" content="user-scalable=no, initial-scale=0.5, minimum-scale=0.5" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<script type="text/javascript" src="../JS/mobile.js"></script>
+		<meta charset="UTF-8">
+		
         <!-- Javascript -->
         <script src="JS/smooth-scroll.js"></script>
 		<script>
@@ -36,7 +44,8 @@ include "database_connect.php";
 		<header class="container" id="top_body_wrapper">
 			<div class="row">
 				<a href="index.php"><h1 class="Logo">On My Way</h1></a>
-				<ul class="nav">
+				<a class="mobile_only" href="#" id="mobile_enabler" onClick="show_Menu()"><img src="IMG/Menu.png" id="menu_enabler" alt="Menu"/></a>
+				<ul class="nav menu" id="menu">
                     <?php
 						$full_name = $_SERVER['PHP_SELF'];
 						$name_array = explode('/',$full_name);
