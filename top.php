@@ -22,7 +22,7 @@ include "database_connect.php";
 		<meta name="viewport" content="user-scalable=no, initial-scale=0.5, minimum-scale=0.5" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<script type="text/javascript" src="../JS/mobile.js"></script>
+		<script type="text/javascript" src="JS/mobile.js"></script>
 		<meta charset="UTF-8">
 		
         <!-- Javascript -->

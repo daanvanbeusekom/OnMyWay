@@ -221,7 +221,6 @@ border-radius: 5px;
 }
 
 #page_static{
-max-width:260px;
 height:auto;
 min-height:70px;
 margin-top:15px;
@@ -241,7 +240,6 @@ float:right;
 }
 
 #time_static{
-max-width:260px;
 height:auto;
 margin-top:15px;
 border: 1px solid #e5e5e5;
@@ -258,7 +256,6 @@ margin-left:3px;
 }
 
 #users_static{
-max-width:260px;
 height:auto;
 min-height:70px;
 margin-top:15px;

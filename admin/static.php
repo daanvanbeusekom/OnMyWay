@@ -12,6 +12,58 @@ if($_SESSION['user_level'] == 1){
 						  <strong>Gevaar!</strong> Deze informatie klopt nog niet, niet gebruiken!.
 						</div>
 
+        <div class="col-md-3 col-sm-6 col-xs-12" style="padding:0px; padding-right:3%;">
+          <div class="info-box">
+            <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">CPU Traffic</span>
+              <span class="info-box-number">90<small>%</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+
+       <div class="col-md-3 col-sm-6 col-xs-12" style="padding:0px; padding-right:3%;">
+          <div class="info-box">
+            <span class="info-box-icon bg-red"><i class="fa fa-google-plus"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Likes</span>
+              <span class="info-box-number">41,410</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12" style="padding:0px; padding-right:3%;">
+                  <div class="info-box">
+                    <span class="info-box-icon bg-green"><i class="ion ion-ios-cart-outline"></i></span>
+
+                    <div class="info-box-content">
+                      <span class="info-box-text">Sales</span>
+                      <span class="info-box-number">760</span>
+                    </div>
+                    <!-- /.info-box-content -->
+                  </div>
+                  <!-- /.info-box -->
+                </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12" style="padding:0px; padding-right:3%;">
+              <div class="info-box">
+                <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
+
+                <div class="info-box-content">
+                  <span class="info-box-text">New Members</span>
+                  <span class="info-box-number">2,000</span>
+                </div>
+                <!-- /.info-box-content -->
+              </div>
+              <!-- /.info-box -->
+            </div>
+
 		<div class="box col col-50" id="welcome_message">
 					<div class="box-header with-border">
 						<p> Bandbreedte :</p>
@@ -218,9 +270,28 @@ In a tellus sodales, tincidunt lectus volutpat, finibus mi. Integer cursus est i
                     </script>
 				</div>
 
+                <!--<div class="box col col-25 green-border" id="welcome_message">
+                    <a class='fancybox-thumbs' data-fancybox-group='thumb' href='http://www.denieuweschepenvandoeksen.nl/wp-content/uploads/2017/01/7247-1-7122-A-3D-Exterior-Rendering-1-NO-LOGO.jpg'><img src="http://www.denieuweschepenvandoeksen.nl/wp-content/uploads/2017/01/7247-1-7122-A-3D-Exterior-Rendering-1-NO-LOGO.jpg" style="width:auto; height:180px;"></a>
+				</div>-->
+
                 <div class="box col col-25 green-border" id="welcome_message">
-					
+					<div id="text_page_static">
+						<p> Op dit moment zijn er :</p>
+					</div>
+					<div id="page_static_aantal">
+						<p>6 pagina's</p>
+						<p>1 home-pagina</p>
+					</div>	
+					<br>
+					<br>
+					<br>
+					<a href="pages.php"> bekijk meer </a>
 				</div>
+
+                <div class="box col col-80 green-border" id="welcome_message">
+                    <p>Test</p>
+                </div>
+
 				
 <?php
 

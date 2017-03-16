@@ -58,10 +58,8 @@ width: 34px;
 width: 100%;
 height: auto;
 background-color: rgba(120,120,120,1);
-background-color: rgba(255,255,255,1);
 background-image: url('../IMG/noisy.png');
 background-size: auto auto;
-display: none;
 }
 
 .logo{
@@ -70,7 +68,9 @@ margin-top:-20px;
 
 
 header {
-padding: 20px;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
 background-color: rgb(255, 84, 0);
 border-bottom: 5px solid rgb(55, 55, 55);
 }
@@ -81,6 +81,7 @@ font-weight: 700;
 margin: 0;
 font-family: OpenSans-Bold;
 max-width:auto;
+margin-left:20px;
 }
 
 .logo{
@@ -124,6 +125,7 @@ header>.row>ul>li>a:hover{
 background-color: rgba(170,170,170,0.9);
 border-bottom: 20px;
 border-color: rgba(170,170,170,0.7);
+width:100%
 }
 
 .active a {
@@ -131,13 +133,12 @@ color: black;
 }
 
 #top_body_wrapper>.row>ul{
-width: 100%;
+min-width: 100%;
 height: auto;
 background-color: rgba(120,120,120,1);
-background-color: rgba(255,255,255,1);
-background-image: url('../IMG/noisy.png');
 background-size: auto auto;
 display: none;
+margin-top: -7px;
 }
 
 #top_body_wrapper>.row>ul>li{
@@ -155,10 +156,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', e
 
 #top_body_wrapper>.row>ul>li>a{
 line-height: 35px;
-font-family: PenultimateLightRegular;
+font-family: OpenSans-Bold;
 text-decoration: none;
 color: rgb(230,230,230);
-font-size: 25px;
+font-size: 18px;
 padding-left: 5%;
 height: 35px;
 width: 100%;

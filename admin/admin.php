@@ -31,7 +31,7 @@ $row = $result->fetch_assoc();{
 				</div>
 				
 
-				<div class="box" id="statics_static">
+				<div class="box" id="statics_static" style="width:72%">
 					<div class="box-header with-border">
 						<p> Statistieken :</p>
 						
@@ -52,7 +52,7 @@ $row = $result->fetch_assoc();{
 					</div>
 				</div>
 					
-				<div id="page_static">
+				<div id="page_static" style="width:22%">
 					<div id="text_page_static">
 						<p> Op dit moment zijn er :</p>
 					</div>
@@ -66,7 +66,7 @@ $row = $result->fetch_assoc();{
 					<a href="pages.php"> bekijk meer </a>
 				</div>
 				
-				<div id="time_static">
+				<div id="time_static" style="width:22%">
 					<div id="txt_time_static">
 						<p> Het is op dit moment :</p>
 					</div>
@@ -77,7 +77,7 @@ $row = $result->fetch_assoc();{
 					</div>
 				</div>
 				
-				<div id="users_static">
+				<div id="users_static" style="width:22%">
 					<div id="txt_users_static">
 						<p> Op dit moment zijn er :</p>
 					</div>
@@ -90,7 +90,7 @@ $row = $result->fetch_assoc();{
 					<a id="more_users" href="users.php"> bekijk meer </a>
 				</div>
 				
-				<div id="recent_static">
+				<div id="recent_static" style="width:22%">
 					<div id="txt_recent_static">
 						<p> Recent gebeurt :</p>
 					</div>
